@@ -1,0 +1,210 @@
+@font-face {
+  font-family: 'vazir';
+  src: url("../fonts/vazir/Vazir-Medium.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/vazir/Vazir-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/vazir/Vazir-Medium.woff2") format("woff2"), url("../fonts/vazir/Vazir-Medium.woff") format("woff"), url("../fonts/vazir/Vazir-Medium.ttf") format("truetype"), url("../fonts/vazir/Vazir-Medium.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+}
+
+.header__container {
+  height: 120px;
+  display: contents;
+}
+
+.header__container nav {
+  margin-bottom: 0;
+}
+
+.header__container nav .logo__container .logo-img {
+  float: left;
+}
+
+.header__container nav .logo__container button {
+  margin-right: 0px;
+}
+
+.header__container nav .logo__container button span {
+  background-color: #3e3e3e;
+}
+
+.header__container nav .search__container form {
+  position: relative;
+}
+
+.header__container nav .search__container form .search-image {
+  position: absolute;
+  top: 2px;
+  left: 17px;
+}
+
+.header__container nav .search__container input {
+  border: 1px solid #b8c7d0;
+  border-radius: 0;
+  width: 172px;
+  height: 33px;
+  font-family: Tahoma;
+  font-size: 11px;
+  padding-right: 7px;
+  padding-left: 30px;
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+}
+
+.header__container nav .search__container input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #bfbfbf;
+}
+
+.header__container nav .search__container input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #bfbfbf;
+}
+
+.header__container nav .search__container input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #bfbfbf;
+}
+
+.header__container nav .search__container input:-moz-placeholder {
+  /* Firefox 18- */
+  color: #bfbfbf;
+}
+
+.header__container .menu__container {
+  position: absolute;
+  top: 67px;
+}
+
+.header__container .menu__container ul {
+  padding: 0;
+}
+
+.header__container .menu__container ul li {
+  float: right;
+}
+
+body {
+  font-family: vazir;
+  font-size: 14px;
+  color: #3e3e3e;
+}
+
+body a {
+  color: #3e3e3e;
+}
+
+body a:hover {
+  color: #3e3e3e;
+}
+
+.main__container {
+  border-top: 4px solid #87bd25;
+}
+
+.main__container .slider__container .slider-arrows {
+  visibility: hidden;
+}
+
+.main__container .slider__container:hover .slider-arrows {
+  visibility: visible;
+}
+
+.main__container .contents__container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+}
+
+.main__container .contents__container ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: calc(25% - 10px);
+      flex-basis: calc(25% - 10px);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 25px 5px;
+  background: #6d6d6d;
+}
+
+.main__container .contents__container ul li figure figcaption {
+  padding-top: 178px;
+  margin-bottom: -28px;
+}
+
+.main__container .products__container {
+  background-color: #f1f1f1;
+}
+
+.main__container .products__container h2 {
+  font-size: 18px;
+  border-bottom: 4px solid #87bd25;
+  display: inline;
+  line-height: 65px;
+  padding-bottom: 8px;
+}
+
+.main__container .products__container hr {
+  border: 1px solid #cfcfcf;
+  padding-top: 0px;
+  margin-top: -7px;
+}
+
+.main__container .products__container p {
+  font-family: Tahoma;
+  font-size: 11px;
+  color: #6d6d6d;
+}
+
+.footer__container {
+  background-color: #3d3a33;
+  color: #646464;
+  padding: 20px;
+}
+
+body {
+  direction: rtl;
+}
+
+@media (max-width: 991px) {
+  .menu__container ul > li > a {
+    padding: 15px 7px;
+    font-size: small;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__container {
+    height: 50px;
+  }
+  .header__container .logo-img img {
+    height: 50px;
+  }
+  .header__container .menu__container {
+    position: unset;
+    top: 69px;
+  }
+  .header__container .menu__container ul li {
+    float: unset;
+  }
+  .header__container .search__container .search-image {
+    margin-top: 9px;
+  }
+  .header__container .search__container form input {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

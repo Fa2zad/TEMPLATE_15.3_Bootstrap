@@ -1,0 +1,50 @@
+//(min-width: 991px)
+@media (max-width: 991px){
+    //header
+    .menu__container{
+
+        ul>li>a {
+            padding: 15px 7px;
+            font-size: small;
+        }
+
+    }
+    
+
+
+}
+
+@media (max-width: 767px){
+    //header
+    
+    .header__container{
+        height: 50px;
+    
+        .logo-img img{
+            height: 50px;
+        }
+
+        .menu__container{
+            position: unset;
+            top: 69px;
+            ul{
+
+                li{
+                    float: unset;
+                }
+            }
+        }
+
+
+
+
+        .search__container{
+            .search-image{
+                margin-top: 9px;
+            }
+            form input{
+                width: 100%;
+            }
+        }
+    }
+}
