@@ -109,6 +109,10 @@ body a:hover {
   visibility: visible;
 }
 
+.main__container .contents__container {
+  padding-top: 7px;
+}
+
 .main__container .contents__container ul {
   display: -webkit-box;
   display: -ms-flexbox;
