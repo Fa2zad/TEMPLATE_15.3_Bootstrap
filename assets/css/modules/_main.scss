@@ -44,12 +44,83 @@ body{
                 flex-direction: column;
                 margin: 25px 5px;
                 background: #6d6d6d;
-                figure{
-                    figcaption{
-                        padding-top: 178px;
-                        margin-bottom: -28px;
+
+                &:nth-child(1){
+                    figure{
+                        background-color: #fa6800;
+                        background-position-x: -680px;
+
                     }
                 }
+                &:nth-child(2){
+                    figure{
+                        background-color: #1ba1e2;
+                        background-position-x: -450px;
+
+                    }
+                }
+                &:nth-child(3){
+                    figure{
+                        background-color: #9f00c4;
+                        background-position-x: -216px;
+
+                    }
+                }
+                &:nth-child(4){
+                    figure{
+                        background-color: #d80073;
+                        background-position-x: 23px;
+
+                    }
+                }
+                &:nth-child(5){
+                    figure{
+                        background-color: #b617d3;
+                        background-position-x: 250px;
+
+                    }
+                }
+                &:nth-child(6){
+                    figure{
+                        background-color: #4fc736;
+                        background-position-x: 490px;
+
+                    }
+                }
+                &:nth-child(7){
+                    figure{
+                        background-color: #fe9f09;
+                        background-position-x: 727px;
+
+                    }
+                }
+                &:nth-child(8){
+                    figure{
+                        background-color: #c40023;
+                        background-position-x: 960px;
+
+                    }
+                }
+
+
+                figure{
+                    background-image: url('../images/bnr.png');
+                    height: 150px;
+                    position: relative;
+                    transition-duration: 400ms;
+                    figcaption{
+                        bottom: -31px;
+                        position: absolute;
+                    }
+                    &:hover{
+                        background-position-y: 100%;
+                        background-color: white;
+                    }
+
+                    
+                }
+
+                
                 
             }
         }
