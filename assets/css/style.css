@@ -176,7 +176,81 @@ body a:hover {
 .footer__container {
   background-color: #3d3a33;
   color: #646464;
-  padding: 20px;
+  padding: 25px;
+  padding-bottom: 10px;
+  font-size: 10.5px;
+  font-family: Tahoma;
+}
+
+.footer__container section {
+  float: right;
+}
+
+.footer__container section ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.footer__container section ul li {
+  float: right;
+  display: inline-block;
+  margin: 12px 10px 0px 10px;
+}
+
+.footer__container section ul li a {
+  color: #959595;
+}
+
+.footer__container section ul li a:hover {
+  color: #dadada;
+  text-shadow: 0px 0px 10px black;
+  text-decoration: none;
+}
+
+.footer__container section .copyright__container {
+  direction: ltr;
+}
+
+.footer__container section .copyright__container ul {
+  display: inline-block;
+}
+
+.footer__container section .copyright__container ul li {
+  float: left;
+  width: 24px;
+  height: 23px;
+  display: inline-block;
+  margin: 0px 1.5px;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+
+.footer__container section .copyright__container ul li:hover {
+  margin-top: -3px;
+  -webkit-filter: contrast(200%);
+          filter: contrast(200%);
+}
+
+.footer__container section .copyright__container ul li figure {
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/social.png");
+}
+
+.footer__container section .copyright__container ul li:nth-child(2) figure {
+  background-position: -25px 0px;
+}
+
+.footer__container section .copyright__container ul li:nth-child(3) figure {
+  background-position: -50px 0px;
+}
+
+.footer__container section .copyright__container ul li:nth-child(4) figure {
+  background-position: -75px 0px;
+}
+
+.footer__container section .copyright__container ul li:nth-child(5) figure {
+  background-position: -100px 0px;
 }
 
 body {
@@ -187,6 +261,10 @@ body {
   .menu__container ul > li > a {
     padding: 15px 7px;
     font-size: small;
+  }
+  .main__container .contents__container ul li {
+    -ms-flex-preferred-size: calc(50% - 10px);
+        flex-basis: calc(50% - 10px);
   }
 }
 
@@ -203,12 +281,34 @@ body {
   }
   .header__container .menu__container ul li {
     float: unset;
+    border-bottom: 1px solid lightgray;
   }
   .header__container .search__container .search-image {
     margin-top: 9px;
   }
   .header__container .search__container form input {
     width: 100%;
+  }
+  .main__container .contents__container ul li {
+    -ms-flex-preferred-size: calc(100% - 10px);
+        flex-basis: calc(100% - 10px);
+  }
+  .footer__container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .footer__container section {
+    float: unset;
+    text-align: center;
+  }
+  .footer__container section ul {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 550px) {
+  .slider__container img {
+    min-height: 150px;
   }
 }
 /*# sourceMappingURL=style.css.map */
